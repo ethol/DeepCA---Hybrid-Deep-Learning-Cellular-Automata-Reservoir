@@ -9,7 +9,7 @@ import itertools
 import random
 import time
 
-n = 4
+n = 3
 complement = False
 
 ttl = int(math.pow(2, n))
@@ -72,7 +72,6 @@ for i in range(0, perm):
         eq.append(rule)
         found[rule] = True
     lookup[i] = eq
-
 
 #
 # for key in lookup.keys():
